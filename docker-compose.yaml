@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  fuckingms-chainlit:
+    build: .
+    image: fuckingms-chainlit:latest
+    container_name: fuckingms-chainlit
+    ports:
+      - "8000:8000"
